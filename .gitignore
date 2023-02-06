@@ -1,0 +1,19 @@
+.env
+
+# Docker
+docker/
+
+# IDEs
+.vscode
+.idea/
+
+# Node artifact files
+node_modules/
+dist/
+
+# Log files
+*.log
+
+# production
+build/
+/.npmrc

@@ -1,18 +1,15 @@
 <h1 style="text-align:center;">Discord.js v14 Bot Template</h1>
 
-## Features
+## How to use 
 
-* 🟦 Typescript
-* 🔥 Slash commands (supports auto complete!)
-* ✉️ Message commands
-* 🕛 Cooldowns
-* 🏴 Detailed Permissions
-* 💪 Event & Command handlers
-* 🍃 MongoDB Support
+Call `!buttons` on any channel and two operating buttons will appear!
 
-## Installation
+Press on the button to mute/unmute all members but those who have a "mute others" permission
 
-Clone the repository then create a file named `.env` and fill it out accordingly
+
+
+
+## .env file structure
 
 ```js
 TOKEN=YOURTOKENHERE
@@ -22,4 +19,4 @@ MONGO_URI=YOUR MONGO CONNECTION STRING
 MONGO_DATABASE_NAME=YOUR DATABASE NAME
 ```
 
-Build the project using the typescript module and start the bot using the `npm start` command
+Build the project using the typescript module and start the bot using the `npm build & run` command
